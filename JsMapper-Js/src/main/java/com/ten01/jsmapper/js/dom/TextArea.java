@@ -1,5 +1,8 @@
 package com.ten01.jsmapper.js.dom;
 
-public interface TextArea {
+/**
+ * @author chidveer chinthauntla
+ */
+public interface TextArea extends Element{
 
 }

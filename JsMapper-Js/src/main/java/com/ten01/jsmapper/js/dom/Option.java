@@ -1,5 +1,8 @@
 package com.ten01.jsmapper.js.dom;
 
-public interface Option {
+/**
+ * @author chidveer chinthauntla
+ */
+public interface Option extends Element{
 
 }

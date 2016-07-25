@@ -1,5 +1,8 @@
 package com.ten01.jsmapper.js.dom;
 
-public interface Radio {
+/**
+ * @author chidveer chinthauntla
+ */
+public interface Radio extends Element {
 
 }

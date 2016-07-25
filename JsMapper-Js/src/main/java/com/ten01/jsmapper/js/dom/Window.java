@@ -1,10 +1,24 @@
 package com.ten01.jsmapper.js.dom;
 
-public abstract class Window {
+/**
+ * @author chidveer chinthauntla
+ */
+public interface Window {
 	
-	private History history;
-	private Document document;
-	private Location location;
+	History history = getHistory();
+	Document document = getDocument();
+	Location location = getLocation();
 	
+	static History getHistory() {
+		return null;
+	}
+
+	static Document getDocument() {
+		return null;
+	}
+
+	static Location getLocation() {
+		return null;
+	}
 
 }

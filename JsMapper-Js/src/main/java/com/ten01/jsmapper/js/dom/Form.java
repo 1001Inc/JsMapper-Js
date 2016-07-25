@@ -1,5 +1,8 @@
 package com.ten01.jsmapper.js.dom;
 
-public interface Form {
+/**
+ * @author chidveer chinthauntla
+ */
+public interface Form extends Element {
 
 }

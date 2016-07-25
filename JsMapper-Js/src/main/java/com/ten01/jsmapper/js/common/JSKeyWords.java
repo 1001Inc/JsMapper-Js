@@ -71,6 +71,7 @@ public interface JSKeyWords {
 	//Others non-keywors;
 	String CONSTRUCTOR    = "constructor";
 	String ASYNC	      = "async";
+	String GENERATOR	  = "function*";
 	
 	//Code usage utils
 	String PARAM_VAR = "param";
