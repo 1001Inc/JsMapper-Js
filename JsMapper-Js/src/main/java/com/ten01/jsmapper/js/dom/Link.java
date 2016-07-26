@@ -3,6 +3,6 @@ package com.ten01.jsmapper.js.dom;
 /**
  * @author chidveer chinthauntla
  */
-public interface Link extends Element {
+public abstract class Link extends Element {
 
 }

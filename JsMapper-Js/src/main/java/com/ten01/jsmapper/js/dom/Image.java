@@ -3,6 +3,6 @@ package com.ten01.jsmapper.js.dom;
 /**
  * @author chidveer chinthauntla
  */
-public interface Image extends Element {
+public abstract class Image extends Element {
 
 }

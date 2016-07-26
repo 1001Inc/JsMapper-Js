@@ -1,0 +1,87 @@
+package com.ten01.jsmapper.js.common;
+
+public enum JSKeyWordsEnum {
+	
+	ABSTRACT(JSKeyWords.ABSTRACT),
+	ARGUMENTS(JSKeyWords.ARGUMENTS),
+	BOOLEAN(JSKeyWords.BOOLEAN),
+	BREAK(JSKeyWords.BREAK),
+	BYTE(JSKeyWords.BYTE),
+	CASE(JSKeyWords.CASE),
+	CATCH(JSKeyWords.CATCH),
+	CHAR(JSKeyWords.CHAR),
+	CLASS(JSKeyWords.CLASS),
+	CONST(JSKeyWords.CONST),
+	CONTINUE(JSKeyWords.CONTINUE),
+	DEBUGGER(JSKeyWords.DEBUGGER),
+	DEFAULT(JSKeyWords.DEFAULT),
+	DELETE(JSKeyWords.DELETE),
+	DO(JSKeyWords.DO),
+	DOUBLE(JSKeyWords.DOUBLE),
+	ELSE(JSKeyWords.ELSE),
+	ENUM(JSKeyWords.ENUM),
+	EVAL(JSKeyWords.EVAL),
+	EXPORT(JSKeyWords.EXPORT),
+	EXTENDS(JSKeyWords.EXTENDS),
+	FALSE(JSKeyWords.FALSE),
+	FINAL(JSKeyWords.FINAL),
+	FINALLY(JSKeyWords.FINALLY),
+	FLOAT(JSKeyWords.FLOAT),
+	FOR(JSKeyWords.FOR),
+	FUNCTION(JSKeyWords.FUNCTION),
+	GOTO(JSKeyWords.GOTO),
+	IF(JSKeyWords.IF),
+	IMPLEMENTS(JSKeyWords.IMPLEMENTS),
+	IMPORT(JSKeyWords.IMPORT),
+	IN(JSKeyWords.IN),
+	INSTANCEOF(JSKeyWords.INSTANCEOF),
+	INT(JSKeyWords.INT),
+	INTERFACE(JSKeyWords.INTERFACE),
+	LET(JSKeyWords.LET),
+	LONG(JSKeyWords.LONG),
+	NATIVE(JSKeyWords.NATIVE),
+	NEW(JSKeyWords.NEW),
+	NULL(JSKeyWords.NULL),
+	PACKAGE(JSKeyWords.PACKAGE),
+	PRIVATE(JSKeyWords.PRIVATE),
+	PROTECTED(JSKeyWords.PROTECTED),
+	PUBLIC(JSKeyWords.PUBLIC),
+	RETURN(JSKeyWords.RETURN),
+	SHORT(JSKeyWords.SHORT),
+	STATIC(JSKeyWords.STATIC),
+	SUPER(JSKeyWords.SUPER),
+	SWITCH(JSKeyWords.SWITCH),
+	SYNCHRONIZED(JSKeyWords.SYNCHRONIZED),
+	THIS(JSKeyWords.THIS),
+	THROW(JSKeyWords.THROW),
+	THROWS(JSKeyWords.THROWS),
+	TRANSIENT(JSKeyWords.TRANSIENT),
+	TRUE(JSKeyWords.TRUE),
+	TRY(JSKeyWords.TRY),
+	TYPEOF(JSKeyWords.TYPEOF),
+	VAR(JSKeyWords.VAR),
+	VOID(JSKeyWords.VOID),
+	VOLATILE(JSKeyWords.VOLATILE),
+	WHILE(JSKeyWords.WHILE),
+	WITH(JSKeyWords.WITH),
+	YIELD(JSKeyWords.YIELD),
+	
+	//Others non-keywors,
+	CONSTRUCTOR(JSKeyWords.CONSTRUCTOR),
+	ASYNC(JSKeyWords.ASYNC),
+	GENERATOR(JSKeyWords.GENERATOR),
+	
+	//code usage utils
+	PARAM_VAR(JSKeyWords.PARAM_VAR);
+	
+	private String value;
+	
+	JSKeyWordsEnum(String value){
+		this.value = value;				
+	}
+	
+	public String getValue() {
+		return value;
+	}
+
+}

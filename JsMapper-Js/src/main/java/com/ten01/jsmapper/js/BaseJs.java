@@ -3,6 +3,7 @@ package com.ten01.jsmapper.js;
 import com.ten01.jsmapper.js.dom.Console;
 import com.ten01.jsmapper.js.dom.Document;
 import com.ten01.jsmapper.js.dom.Window;
+import com.ten01.jsmapper.js.keywords.Yield;
 
 /**
  * @author chidveer chinthauntla
@@ -22,6 +23,11 @@ public interface BaseJs {
 	}
 
 	static Document getDocument(){
+		return null;
+	}
+	
+	@JsKeyWord(Yield.class)
+	default Object yield(Object string){
 		return null;
 	}
 

@@ -3,6 +3,6 @@ package com.ten01.jsmapper.js.dom;
 /**
  * @author chidveer chinthauntla
  */
-public interface History { //extends Window
+public abstract class History { //extends Window
 
 }
