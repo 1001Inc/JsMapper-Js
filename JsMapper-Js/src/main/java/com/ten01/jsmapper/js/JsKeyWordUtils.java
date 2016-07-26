@@ -1,10 +1,10 @@
-package com.ten01.jsmapper.js.common;
+package com.ten01.jsmapper.js;
 
 import java.lang.reflect.Method;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.ten01.jsmapper.js.BaseJs;
+import com.ten01.jsmapper.js.common.JSKeyWordsEnum;
 
 public abstract class JsKeyWordUtils {
 	
@@ -12,7 +12,7 @@ public abstract class JsKeyWordUtils {
 		if(StringUtils.isBlank(keyword))
 			return false;
 		for (Method method : BaseJs.class.getMethods()) {
-		     if (method.getName().equals(keyword)) {
+		     if (method.getName().equals(keyword) && method.isAnnotationPresent(JsKeyWord.class)) {
 		         return true;
 		     }
 		}

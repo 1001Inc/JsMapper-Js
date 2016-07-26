@@ -75,5 +75,6 @@ public interface JSKeyWords {
 	
 	//Code usage utils
 	String PARAM_VAR = "param";
+	String FILE_EXTENSION = ".js";
 	
 }
