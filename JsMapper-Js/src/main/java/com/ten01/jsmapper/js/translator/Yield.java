@@ -1,7 +1,9 @@
-package com.ten01.jsmapper.js.translater;
+package com.ten01.jsmapper.js.translator;
 
-public class Yield implements Translater{
-	
+/**
+ * @author chidveer chinthauntla
+ */
+public class Yield implements Translator{
 	
 	public Object submit(String string){
 		return null;
